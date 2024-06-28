@@ -18,7 +18,7 @@
 . $CORE_PATH/hw/scripts/common.sh
 
 CFG_RESET="reset halt"
-GDB=arm-none-eabi-gdb
+GDB=gdb-multiarch
 
 #
 # FILE_NAME must contain the name of the file to load
