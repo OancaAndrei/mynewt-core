@@ -27,6 +27,9 @@
 #ifndef __STDC_LIMIT_MACROS
 #  define __STDC_LIMIT_MACROS 1
 #endif
+#ifndef __int64_t_defined
+#  define __int64_t_defined 1
+#endif
 
 #include "tinycbor/cbor.h"
 #include "tinycbor/compilersupport_p.h"
